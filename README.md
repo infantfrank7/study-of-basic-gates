@@ -63,17 +63,36 @@ Y= A⊕B
 
 
 **PROGRAM**
+module STAR2(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b);
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: Infant Jesus S
+ Register Number: 24001856
+ 
  
 **Logic symbol & Truthtable**
+![Screenshot 2024-11-12 214939](https://github.com/user-attachments/assets/8094e7aa-8850-43cd-a823-5bf03362fed9)
 
-**RTL realization Output:** 
+
+
 
 **RTL**
+![Screenshot 2024-11-12 141750](https://github.com/user-attachments/assets/7af1dbcc-3d71-4b6b-b629-1833dcef312a)
+**OUTPUT**
+
 
 **Result:**
+![Screenshot 2024-11-12 215810](https://github.com/user-attachments/assets/a0c927f7-7887-4ca2-b758-32602f2b6a81)
 
 
